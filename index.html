@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プライバシーポリシー | ぱっと見タイテ</title>
+  <style>
+    :root {
+      --bg-color: #121212;
+      --card-bg: #1e1e1e;
+      --text-main: #eaeaea;
+      --text-sub: #a0a0a0;
+      --accent: #00ffcc;
+      --border: #2e2e2e;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 24px 16px 48px;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Noto Sans JP", sans-serif;
+      line-height: 1.75;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background-color: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 32px 24px;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+
+    .app-name {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: 0.08em;
+      margin: 0 0 6px;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      margin: 0;
+      line-height: 1.3;
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      color: var(--accent);
+      margin: 28px 0 10px;
+      padding-left: 10px;
+      border-left: 3px solid var(--accent);
+    }
+
+    p {
+      margin: 0 0 12px;
+      font-size: 0.95rem;
+    }
+
+    ul {
+      margin: 8px 0 16px;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      font-size: 0.95rem;
+    }
+
+    .contact-box {
+      background-color: #161616;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin-top: 10px;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      margin-top: 32px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--text-sub);
+      text-align: right;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 24px 18px;
+      }
+      h1 {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <p class="app-name">PATTOMITAITE</p>
+      <h1>プライバシーポリシー</h1>
+    </header>
+
+    <p>
+      【開発者名】（以下「当方」といいます）は、Androidアプリケーション「ぱっと見タイテ」（以下「本アプリ」といいます）におけるユーザーの情報の取り扱いについて、以下のとおりプライバシーポリシーを定めます。
+    </p>
+
+    <h2>1. 取得する情報と保存場所</h2>
+    <p>
+      本アプリは、ユーザーが登録したタイムテーブル画像、メモ・落書きデータ、カレンダー予定、および各種設定情報を、原則としてユーザーの端末内（ローカルストレージ）にのみ保存します。当方のサーバーへこれらのデータを自動送信・収集することはありません。
+    </p>
+
+    <h2>2. 外部サービスとの通信について</h2>
+    <p>本アプリは以下の機能を利用する際、必要な範囲で外部サービスと通信を行う場合があります。</p>
+    <ul>
+      <li>
+        <strong>X（旧Twitter）URL共有からの取り込み機能</strong>：ユーザーが明示的に共有したポストURLをもとに、X公式の埋め込み表示（oEmbed）をアプリ内WebViewで読み込むためにXのサーバーへアクセスします。
+      </li>
+      <li>
+        <strong>日付の自動推測機能（文字認識）</strong>：端末内のオンデバイス処理により画像から日付候補を抽出します。処理に必要な認識モデルの取得等のため、Google Play開発者サービスと通信する場合がありますが、画像データ自体が当方のサーバーへ送信されることはありません。
+      </li>
+    </ul>
+
+    <h2>3. 使用する端末権限と利用目的</h2>
+    <p>本アプリは、以下の目的のために端末の権限を使用します。</p>
+    <ul>
+      <li><strong>他のアプリの上に重ねて表示（SYSTEM_ALERT_WINDOW）</strong>：ライブモードの全画面表示およびフローティング小窓の表示のため。</li>
+      <li><strong>通知・フォアグラウンドサービス</strong>：ライブモード実行中のステータス表示、終了操作の提供、および安定した動作維持のため。</li>
+      <li><strong>画像・メディアの選択</strong>：ユーザーが選択または他アプリから共有したタイムテーブル画像を本アプリへ取り込むため。</li>
+    </ul>
+
+    <h2>4. データのバックアップおよび共有</h2>
+    <p>
+      ZIPファイルによるバックアップ・復元機能、および他端末への共有機能は、ユーザー自身の操作によってのみ実行されます。当方がバックアップデータや共有内容を取得することはありません。
+    </p>
+
+    <h2>5. 第三者提供・広告・解析ツールについて</h2>
+    <p>
+      本アプリは現在、個人情報を収集する第三者の広告配信モジュールやアクセス解析ツールを導入していません。将来的にこれらを導入する場合は、事前に本プライバシーポリシーを改定し周知します。
+    </p>
+
+    <h2>6. 免責事項</h2>
+    <p>
+      本アプリの利用によって生じた損害について、当方は一切の責任を負いません。端末の故障やアプリのアンインストール等によるデータ消失に備え、必要に応じてアプリ内のバックアップ機能をご利用ください。
+    </p>
+
+    <h2>7. プライバシーポリシーの変更</h2>
+    <p>
+      当方は、法令の改正や本アプリの機能変更に伴い、本ポリシーの内容を予告なく変更することがあります。変更後のポリシーは、本ページに掲載した時点から効力を生じるものとします。
+    </p>
+
+    <h2>8. お問い合わせ</h2>
+    <p>本アプリのプライバシーポリシーに関するお問い合わせは、以下の窓口までお願いいたします。</p>
+    <div class="contact-box">
+      開発者名：【開発者名】<br>
+      連絡先：【連絡先メールアドレス】
+    </div>
+
+    <footer>
+      制定日：2026年11月25日
+    </footer>
+  </main>
+</body>
+</html>
